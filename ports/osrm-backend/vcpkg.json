@@ -1,0 +1,32 @@
+{
+  "name": "osrm-backend",
+  "version-semver": "5.26.0",
+  "description": "Open Source Routing Machine - C++ backend",
+  "homepage": "https://github.com/Project-OSRM/osrm-backend",
+  "license": "BSD-2-Clause",
+  "port-version": 0,
+  "dependencies": [
+    "boost-date-time",
+    "boost-chrono",
+    "boost-filesystem",
+    {
+      "name": "boost-iostreams",
+      "features": [
+        "zlib"
+      ]
+    },
+    "boost-program-options",
+    "boost-regex",
+    "boost-system",
+    "boost-thread",
+    "boost-test",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
