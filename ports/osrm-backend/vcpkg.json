@@ -9,17 +9,26 @@
     "boost-date-time",
     "boost-chrono",
     "boost-filesystem",
-    {
-      "name": "boost-iostreams",
-      "features": [
-        "zlib"
-      ]
-    },
+    "boost-iostreams",
     "boost-program-options",
     "boost-regex",
     "boost-system",
     "boost-thread",
     "boost-test",
+    "boost-format",
+    "boost-asio",
+    "boost-interprocess",
+    "boost-heap",
+    "boost-spirit",
+    "boost-uuid",
+    "boost-math",
+    "boost-geometry",
+    "boost-crc",
+    "boost-foreach",
+    "boost-assign",
+    "tbb",
+    "expat",
+    "lua",
     {
       "name": "vcpkg-cmake",
       "host": true
